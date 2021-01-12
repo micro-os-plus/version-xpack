@@ -1,19 +1,19 @@
 {
-  "name": "@<scope>/<project-name>",
-  "version": "0.1.0",
-  "description": "A source/binary xPack with <your-description-here>",
+  "name": "@micro-os-plus/version",
+  "version": "7.0.0",
+  "description": "A source/binary xPack with the µOS++ version definitions",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<organization>/<project-name>-xpack.git"
+    "url": "git+https://github.com/<organization>/version-xpack.git"
   },
   "bugs": {
-    "url": "https://github.com/<organization>/<project-name>-xpack/issues/"
+    "url": "https://github.com/<organization>/version-xpack/issues/"
   },
-  "homepage": "https://github.com/<organization>/<project-name>-xpack/",
+  "homepage": "https://github.com/<organization>/version-xpack/",
   "keywords": [
     "xpack"
   ],
