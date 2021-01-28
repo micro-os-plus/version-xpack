@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/github/license/micro-os-plus/version-xpack)](https://github.com/<organization>/version-xpack/blob/xpack/LICENSE)
+[![license](https://img.shields.io/github/license/micro-os-plus/version-xpack)](https://github.com/micro-os-plus/version-xpack/blob/xpack/LICENSE)
 
 # A source/binary xPack with the µOS++ version definitions
 
@@ -22,10 +22,10 @@ $ xpm install @micro-os-plus/version@latest
 ```
 
 This package is also available from
-[GitHub](https://github.com/<organization>/version-xpack):
+[GitHub](https://github.com/micro-os-plus/version-xpack):
 
 ```console
-$ git clone https://github.com/<organization>/version-xpack.git version-xpack.git
+$ git clone https://github.com/micro-os-plus/version-xpack.git version-xpack.git
 ```
 
 ## Branches
