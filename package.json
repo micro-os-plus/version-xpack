@@ -1,21 +1,23 @@
 {
   "name": "@micro-os-plus/version",
   "version": "7.0.0",
-  "description": "A source/binary xPack with the µOS++ version definitions",
+  "description": "A source xPack with the µOS++ version definitions",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<organization>/version-xpack.git"
+    "url": "git+https://github.com/micro-os-plus/version-xpack.git/"
   },
   "bugs": {
-    "url": "https://github.com/<organization>/version-xpack/issues/"
+    "url": "https://github.com/micro-os-plus/version-xpack/issues/"
   },
-  "homepage": "https://github.com/<organization>/version-xpack/",
+  "homepage": "https://github.com/micro-os-plus/version-xpack/",
   "keywords": [
-    "xpack"
+    "xpack",
+    "versioning",
+    "micro-os-plus"
   ],
   "author": {
     "name": "Liviu Ionescu",
