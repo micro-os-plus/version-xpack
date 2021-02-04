@@ -34,7 +34,7 @@ In the `micro-os-plus/web-jekyll` GitHub repo:
 
 - select the `develop` branch
 - add a new file to `_posts/version/releases`
-- name the file like `2020-12-19-version-v0-1-0-released.md`
+- name the file like `2020-12-19-version-v1-1-0-released.md`
 - name the post like: **µOS++ version v7.0.0 released**
 - update the `date:` field with the current date
 - update the GitHub Actions URLs using the actual test pages
