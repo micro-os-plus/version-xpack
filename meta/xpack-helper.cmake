@@ -9,20 +9,47 @@
 #
 # -----------------------------------------------------------------------------
 
+if(micro-os-plus-version-included)
+  return()
+endif()
+
+set(micro-os-plus-version-included TRUE)
+
 message(STATUS "Including micro-os-plus-version...")
 
 # -----------------------------------------------------------------------------
 
 function(target_include_directories_micro_os_plus_version target)
 
-  get_filename_component(xpack_root_folder ${CMAKE_CURRENT_FUNCTION_LIST_DIR} DIRECTORY)
+  get_filename_component(xpack_current_folder ${CMAKE_CURRENT_FUNCTION_LIST_DIR} DIRECTORY)
 
   target_include_directories(
     ${target}
 
-    PUBLIC
-      ${xpack_root_folder}/include
+    INTERFACE
+      ${xpack_current_folder}/include
   )
+
+endfunction()
+
+# =============================================================================
+
+function(add_libraries_micro_os_plus_version)
+
+  # ---------------------------------------------------------------------------
+
+  if (NOT TARGET micro-os-plus-version-interface)
+
+    add_library(micro-os-plus-version-interface INTERFACE EXCLUDE_FROM_ALL)
+
+    target_include_directories_micro_os_plus_version(micro-os-plus-version-interface)
+
+    add_library(micro-os-plus::version ALIAS micro-os-plus-version-interface)
+    message(STATUS "micro-os-plus::version")
+
+  endif()
+
+  # ---------------------------------------------------------------------------
 
 endfunction()
 
