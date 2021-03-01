@@ -8,6 +8,7 @@ and close existing issues and pull requests.
 
 ## 2021-03-01
 
+- v7.0.1
 - v7.0.0
 
 ## 2021-02-28
