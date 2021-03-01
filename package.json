@@ -1,6 +1,6 @@
 {
   "name": "@micro-os-plus/version",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "A source xPack with the µOS++ version definitions",
   "main": "",
   "scripts": {
