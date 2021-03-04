@@ -44,7 +44,7 @@ if (NOT TARGET micro-os-plus-version-interface)
   # Aliases.
 
   add_library(micro-os-plus::version ALIAS micro-os-plus-version-interface)
-  message(STATUS "micro-os-plus::version")
+  message(STATUS "=> micro-os-plus::version")
 
 endif()
 
