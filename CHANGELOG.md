@@ -8,6 +8,11 @@ and close existing issues and pull requests.
 
 ## 2021-03-01
 
+- v7.0.3
+- cmake: add versioning
+
+## 2021-03-01
+
 - v7.0.2
 - v7.0.1
 - v7.0.0
