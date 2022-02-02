@@ -3,7 +3,9 @@
 #   (https://github.com/micro-os-plus)
 # Copyright (c) 2021 Liviu Ionescu
 #
-# This Source Code Form is subject to the terms of the MIT License.
+# Permission to use, copy, modify, and/or distribute this software
+# for any purpose is hereby granted, under the terms of the MIT license.
+#
 # If a copy of the license was not distributed with this file, it can
 # be obtained from https://opensource.org/licenses/MIT/.
 #
@@ -13,12 +15,9 @@
 #
 # `add_subdirectory("xpacks/micro-os-plus-version")`
 #
-# The result is a library that can be added to the linker with:
+# The result is an interface library that can be added to the linker with:
 #
 # `target_link_libraries(your-target PUBLIC micro-os-plus::version)`
-#
-# To avoid poluting this file with test related details, there is a separate
-# CMake configuration in the `tests` folder.
 
 # -----------------------------------------------------------------------------
 ## Preamble ##
@@ -56,11 +55,12 @@ target_include_directories(
     "include"
 )
 
-message(VERBOSE "+ include")
+message(VERBOSE "+ -I include")
 
 # -----------------------------------------------------------------------------
 # Aliases.
 
+# https://cmake.org/cmake/help/v3.20/command/add_library.html#alias-libraries
 add_library(micro-os-plus::version ALIAS micro-os-plus-version-interface)
 message(VERBOSE "> micro-os-plus::version -> micro-os-plus-version-interface")
 
