@@ -55,7 +55,9 @@ target_include_directories(
     "include"
 )
 
-message(VERBOSE "+ -I include")
+if (COMMAND xpack_display_target_lists)
+  xpack_display_target_lists(micro-os-plus-version-interface)
+endif()
 
 # -----------------------------------------------------------------------------
 # Aliases.
