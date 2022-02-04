@@ -6,6 +6,20 @@ Please check
 [GitHub](https://github.com/micro-os-plus/version-xpack/issues/)
 and close existing issues and pull requests.
 
+## 2022-02-04
+
+- v7.1.1
+- f6ee8bd cmake: add xpack_display_target_lists
+
+## 2022-02-02
+
+- 3fbc49a add meson support
+- c334462 version.h: update year 2022
+
+## 2022-01-28
+
+- a61f61d rework CMake, top config, no sources
+
 ## 2022-01-26
 
 - v7.1.0
