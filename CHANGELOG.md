@@ -6,6 +6,10 @@ Please check
 [GitHub](https://github.com/micro-os-plus/version-xpack/issues/)
 and close existing issues and pull requests.
 
+## 2022-02-05
+
+- v7.1.2
+
 ## 2022-02-04
 
 - v7.1.1
