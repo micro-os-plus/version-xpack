@@ -48,11 +48,8 @@ add_library(micro-os-plus-version-interface INTERFACE EXCLUDE_FROM_ALL)
 # -----------------------------------------------------------------------------
 # Target settings.
 
-target_include_directories(
-  micro-os-plus-version-interface
-
-  INTERFACE
-    "include"
+target_include_directories(micro-os-plus-version-interface INTERFACE
+  "include"
 )
 
 if (COMMAND xpack_display_target_lists)
