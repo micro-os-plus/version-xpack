@@ -1,0 +1,22 @@
+{
+  "minimumXpmakeRequired": "0.0.0",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2022 Liviu Ionescu",
+  "description": "Top version components",
+  "cdlComponents": {
+    "cdlComponents": {
+      "version": {
+        "description": "The µOS++ global version.",
+        "parent": "micro-os-plus",
+        "compilerIncludeFolders": [
+          "include"
+        ],
+        "compilerSourceFiles": [],
+        "compilerDefinitions": [],
+        "compilerOptions": [],
+        "dependencies": [],
+        "generatedDefinition": "MICRO_OS_PLUS_INCLUDE_VERSION"
+      }
+    }
+  }
+}
