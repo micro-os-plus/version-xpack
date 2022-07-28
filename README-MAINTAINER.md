@@ -83,7 +83,7 @@ related to the new version.
 
 - open the `CHANGELOG.md` file
 - check if all previous fixed issues are in
-- add a new entry like _- v7.1.2 prepared_
+- add a new entry like _* v7.1.2_
 - commit with a message like _prepare v7.1.2_
 
 ### Push changes
