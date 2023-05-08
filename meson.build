@@ -32,7 +32,16 @@ message('Processing xPack @micro-os-plus/version...')
 micro_os_plus_version_dependency = declare_dependency(
   include_directories: include_directories(
     'include',
-  )
+  ),
+  sources: files(
+    # None.
+  ),
+  compile_args: [
+    # None.
+  ],
+  dependencies: [
+    # None.
+  ]
 )
 
 message('+ -I include')
