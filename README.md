@@ -51,7 +51,7 @@ xpm init # Unless a package.json is already present
 
 xpm install @micro-os-plus/version@latest
 
-ls -l xpacks/micro-os-plus-version
+ls -l xpacks/@micro-os-plus/version
 ```
 
 ### Git submodule
@@ -65,7 +65,7 @@ git init # Unless already a Git project
 mkdir -p xpacks
 
 git submodule add https://github.com/micro-os-plus/version-xpack.git \
-  xpacks/micro-os-plus-version
+  xpacks/@micro-os-plus/version
 ```
 
 ## Branches
@@ -150,7 +150,7 @@ To integrate the version source library into a CMake application,
 add this folder to the build:
 
 ```cmake
-add_subdirectory("xpacks/micro-os-plus-version")`
+add_subdirectory("xpacks/@micro-os-plus/version")`
 ```
 
 The result is an interface library that can be added as an application
@@ -169,7 +169,7 @@ To integrate the version source library into a meson application,
 add this folder to the build:
 
 ```meson
-subdir('xpacks/micro-os-plus-version')
+subdir('xpacks/@micro-os-plus/version')
 ```
 
 The result is a dependency object that can be added
